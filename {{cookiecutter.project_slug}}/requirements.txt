@@ -1,0 +1,7 @@
+# base
+click
+git+https://github.com/abey79/vpype@feature-plugins#egg=vpype
+
+# dev/test
+pytest
+black

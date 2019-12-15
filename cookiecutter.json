@@ -1,0 +1,9 @@
+{
+    "project_name": "My Plugin",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "project_identifier": "{{ cookiecutter.project_slug|replace('-', '_') }}",
+    "command_name": "{{cookiecutter.project_identifier}}",
+    "version": "0.1.0",
+    "author_name": "John Doe",
+    "line_length": 95
+}
