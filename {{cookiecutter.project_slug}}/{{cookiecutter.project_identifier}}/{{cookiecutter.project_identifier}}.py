@@ -1,5 +1,6 @@
 import click
-from vpype import generator, LineCollection
+from vpype.model import LineCollection
+from vpype.decorators import generator
 
 @click.command()
 @generator
@@ -9,3 +10,5 @@ def {{cookiecutter.project_identifier}}():
     """
     lc = LineCollection()
     return lc
+
+{{cookiecutter.project_identifier}}.help_group = "Plugins"

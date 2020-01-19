@@ -8,7 +8,7 @@ with open("LICENSE") as f:
     license = f.read()
 
 setup(
-    name="{{cookiecutter.project_name}}",
+    name="{{cookiecutter.project_slug}}",
     version="{{cookiecutter.version}}",
     description="",
     long_description=readme,
@@ -24,5 +24,5 @@ setup(
     entry_points='''
             [vpype.plugins]
             {{cookiecutter.command_name}}={{cookiecutter.project_identifier}}.{{cookiecutter.project_identifier}}:{{cookiecutter.project_identifier}}
-        ''',,
+        ''',
 )
