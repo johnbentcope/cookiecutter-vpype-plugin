@@ -19,7 +19,7 @@ setup(
     packages=find_packages(exclude=("examples", "tests")),
     install_requires=[
         'click',
-        'vpype @ git+https://github.com/abey79/vpype.git@feature-plugins',
+        'vpype @ git+https://github.com/abey79/vpype.git',
     ],
     entry_points='''
             [vpype.plugins]

@@ -19,8 +19,6 @@ to install _vpype_.
 Use this method if you have an existing _vpype_ installation (typically in an existing virtual environment) and you
 want to make this plug-in available. You must activate your virtual environment beforehand.
 
-*IMPORTANT*: the `feature-plugins` branch of _vpype_ must temporarily be used, until it is merged back into `master`.
-
 ```bash
 $ pip install git+https://github.com/abey79/{{cookiecutter.project_slug}}.git#egg={{cookiecutter.project_slug}}
 ```
