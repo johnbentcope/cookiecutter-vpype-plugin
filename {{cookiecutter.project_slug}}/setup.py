@@ -23,6 +23,6 @@ setup(
     ],
     entry_points='''
             [vpype.plugins]
-            {{cookiecutter.command_name}}={{cookiecutter.project_identifier}}.{{cookiecutter.project_identifier}}:{{cookiecutter.project_identifier}}
+            {{cookiecutter.command_name}}={{cookiecutter.project_identifier}}.{{cookiecutter.command_name}}:{{cookiecutter.command_name}}
         ''',
 )

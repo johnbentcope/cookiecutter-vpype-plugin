@@ -4,11 +4,11 @@ from vpype.decorators import generator
 
 @click.command()
 @generator
-def {{cookiecutter.project_identifier}}():
+def {{cookiecutter.command_name}}():
     """
     Insert documentation here...
     """
     lc = LineCollection()
     return lc
 
-{{cookiecutter.project_identifier}}.help_group = "Plugins"
+{{cookiecutter.command_name}}.help_group = "Plugins"

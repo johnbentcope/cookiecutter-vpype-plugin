@@ -1,6 +1,6 @@
 # base
 click
-git+https://github.com/abey79/vpype@feature-plugins#egg=vpype
+git+https://github.com/abey79/vpype#egg=vpype
 
 # dev/test
 pytest
