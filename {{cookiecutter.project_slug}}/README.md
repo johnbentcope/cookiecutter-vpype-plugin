@@ -1,6 +1,6 @@
 # {{cookiecutter.project_name}}
 
-[_vpype_](https://github.com/abey79/vpype) plug-in to [_to be completed_]
+[`vpype`](https://github.com/abey79/vpype) plug-in to [_to be completed_]
 
 
 ## Examples
@@ -10,13 +10,13 @@ _to be completed_
 
 ## Installation
 
-See _vpype_'s [installation instructions](https://github.com/abey79/vpype/blob/master/INSTALL.md) for information on how
-to install _vpype_.
+See the [installation instructions](https://github.com/abey79/vpype/blob/master/INSTALL.md) for information on how
+to install `vpype`.
 
 
-### Existing _vpype_ installation
+### Existing `vpype` installation
 
-Use this method if you have an existing _vpype_ installation (typically in an existing virtual environment) and you
+Use this method if you have an existing `vpype` installation (typically in an existing virtual environment) and you
 want to make this plug-in available. You must activate your virtual environment beforehand.
 
 ```bash
@@ -58,7 +58,7 @@ $ source venv/bin/activate
 $ pip install --upgrade pip
 ```
 
-Install _vpype-pixelart_ and its dependencies (including _vpype_):
+Install `{{cookiecutter.project_slug}}` and its dependencies (including `vpype`):
 
 ```bash
 $ pip install -e .
