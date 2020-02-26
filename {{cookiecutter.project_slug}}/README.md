@@ -47,7 +47,7 @@ Use this method if you need to edit this project. First, clone the project:
 
 ```bash
 $ git clone https://github.com/abey79/{{cookiecutter.project_slug}}.git
-$ cd vpype-pixelart
+$ cd {{cookiecutter.project_slug}}
 ```
 
 Create a virtual environment:
