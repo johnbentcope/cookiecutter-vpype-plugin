@@ -1,6 +1,5 @@
 import click
-from vpype.model import LineCollection
-from vpype.decorators import generator
+from vpype import LineCollection, generator
 
 
 @click.command()
