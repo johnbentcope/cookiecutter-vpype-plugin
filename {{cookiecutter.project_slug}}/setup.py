@@ -16,7 +16,7 @@ setup(
     author="{{cookiecutter.author_name}}",
     url="",
     license=license,
-    packages=["{{project_identifier}}"],
+    packages=["{{cookiecutter.project_identifier}}"],
     install_requires=[
         'click',
         'vpype @ git+https://github.com/abey79/vpype.git',
