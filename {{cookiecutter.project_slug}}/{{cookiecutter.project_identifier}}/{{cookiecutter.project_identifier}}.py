@@ -1,14 +1,14 @@
 import click
-from vpype import LineCollection, generator
+import vpype as vp
 
 
 @click.command()
-@generator
+@vp.generator
 def {{cookiecutter.command_name}}():
     """
     Insert documentation here...
     """
-    lc = LineCollection()
+    lc = vp.LineCollection()
     return lc
 
 

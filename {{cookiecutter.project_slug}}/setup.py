@@ -19,7 +19,7 @@ setup(
     packages=["{{cookiecutter.project_identifier}}"],
     install_requires=[
         'click',
-        'vpype @ git+https://github.com/abey79/vpype.git',
+        'vpype',
     ],
     entry_points='''
             [vpype.plugins]
