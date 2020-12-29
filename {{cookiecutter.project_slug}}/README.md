@@ -10,7 +10,7 @@ _to be completed_
 
 ## Installation
 
-See the [installation instructions](https://github.com/abey79/vpype/blob/master/INSTALL.md) for information on how
+See the [installation instructions](https://vpype.readthedocs.io/en/stable/install.html) for information on how
 to install `vpype`.
 
 
