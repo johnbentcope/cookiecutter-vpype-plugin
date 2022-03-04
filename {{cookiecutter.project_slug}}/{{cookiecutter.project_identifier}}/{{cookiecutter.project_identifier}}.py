@@ -1,9 +1,10 @@
 import click
 import vpype as vp
+import vpype_cli
 
 
 @click.command()
-@vp.generator
+@vpype_cli.generator
 def {{cookiecutter.command_name}}():
     """
     Insert documentation here...
