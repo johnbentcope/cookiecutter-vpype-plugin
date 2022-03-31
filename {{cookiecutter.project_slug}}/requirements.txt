@@ -1,7 +1,0 @@
-# base
-click
-vpype>=1.9,<2.0
-
-# dev/test
-pytest
-black

@@ -3,3 +3,9 @@ requires = ["setuptools", "wheel", "numpy"]
 
 [tool.black]
 line-length = {{cookiecutter.line_length}}
+target-version = ["py38", "py39", "py310"]
+
+[tool.isort]
+profile = "black"
+line_length = {{cookiecutter.line_length}}
+src_paths = ["{{cookiecutter.project_identifier}}"]

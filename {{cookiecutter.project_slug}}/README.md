@@ -13,9 +13,6 @@ _to be completed_
 See the [installation instructions](https://vpype.readthedocs.io/en/latest/install.html) for information on how
 to install `vpype`.
 
-
-### Existing `vpype` installation
-
 If *vpype* was installed using pipx, use the following command:
 
 ```bash
@@ -31,24 +28,22 @@ $ pip install git+https://github.com/{{cookiecutter.author_github_id}}/{{cookiec
 Check that your install is successful:
 
 ```
-$ vpype --help
-Usage: vpype [OPTIONS] COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...
-
-Options:
-  -v, --verbose
-  -I, --include PATH  Load commands from a command file.
-  --help              Show this message and exit.
-
-Commands:
-[...]
-  Plugins:
-    {{cookiecutter.command_name}}
+$ vpype {{cookiecutter.command_name}} --help
 [...]
 ```
 
-### Stand-alone installation
+## Documentation
 
-Use this method if you need to edit this project. First, clone the project:
+The complete plug-in documentation is available directly in the CLI help:
+
+```bash
+$ vpype {{cookiecutter.command_name}} --help
+```
+
+
+## Development setup
+
+Here is how to clone the project for development:
 
 ```bash
 $ git clone https://github.com/{{cookiecutter.author_github_id}}/{{cookiecutter.project_slug}}.git
@@ -67,33 +62,7 @@ Install `{{cookiecutter.project_slug}}` and its dependencies (including `vpype`)
 
 ```bash
 $ pip install -e .
-```
-
-Check that your install is successful:
-
-```
-$ vpype --help
-Usage: vpype [OPTIONS] COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...
-
-Options:
-  -v, --verbose
-  -I, --include PATH  Load commands from a command file.
-  --help              Show this message and exit.
-
-Commands:
-[...]
-  Plugins:
-    {{cookiecutter.command_name}}
-[...]
-```
-
-
-## Documentation
-
-The complete plug-in documentation is available directly in the CLI help:
-
-```bash
-$ vpype {{cookiecutter.command_name}} --help
+$ pip install -r dev-dependencies.txt
 ```
 
 
