@@ -16,13 +16,13 @@ to install `vpype`.
 If *vpype* was installed using pipx, use the following command:
 
 ```bash
-$ pipx inject vpype git+https://github.com/{{cookiecutter.author_github_id}}/{{cookiecutter.project_slug}}.
+$ pipx inject vpype {{cookiecutter.project_slug}}
 ```
 
 If *vpype* was installed using pip in a virtual environment, activate the virtual environment and use the following command:
 
 ```bash
-$ pip install git+https://github.com/{{cookiecutter.author_github_id}}/{{cookiecutter.project_slug}}#egg={{cookiecutter.project_slug}}
+$ pip install {{cookiecutter.project_slug}}
 ```
 
 Check that your install is successful:

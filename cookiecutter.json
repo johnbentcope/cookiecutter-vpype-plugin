@@ -2,6 +2,7 @@
     "project_name": "My Plugin",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
     "project_identifier": "{{ cookiecutter.project_slug|replace('-', '_') }}",
+    "project_description": "My vpype plug-in",
     "command_name": "{{cookiecutter.project_identifier}}",
     "version": "0.1.0",
     "author_name": "John Doe",
