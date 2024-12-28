@@ -62,7 +62,7 @@ Install `{{cookiecutter.project_slug}}` and its dependencies (including `vpype`)
 
 ```bash
 $ pip install -e .
-$ pip install -r dev-dependencies.txt
+$ pip install -r dev_requirements.txt
 ```
 
 
